@@ -7,7 +7,7 @@ int main(){
     scanf("%d",&a);
     b=sizeof(a)*8 - 1;
     msb=a>>b;
-    if(msb & 1)?printf("Set\n"):printf("Not Set\n");
+    (msb & 1)?printf("Set\n"):printf("Not Set\n");
     return 0;
     
 }
