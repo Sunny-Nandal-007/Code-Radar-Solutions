@@ -1,8 +1,8 @@
 // Your code here...
 #include<stdio.h>
 
-int main(int num, int n){ 
-    int bit;
+int main(){ 
+    int num,n,bit;
     
     scanf("%d %d",&num,&n);
     bit = num >> n;
