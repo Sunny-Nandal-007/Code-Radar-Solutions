@@ -7,6 +7,6 @@ int main(){
     b=sizeof(a);
     msb=1>>b;
     if(msb==1)?printf("Set"):printf("Not Set");
-    return 0
+    return 0;
     
 }
