@@ -3,7 +3,7 @@
 
 int main(){
     int a,b,msb;
-    printf("Enter a number :")
+    printf("Enter a number :");
     scanf("%d",&a);
     b=sizeof(a);
     msb=1>>b;
