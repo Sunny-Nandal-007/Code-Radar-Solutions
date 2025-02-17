@@ -2,11 +2,13 @@
 #include <stdio.h>
 
 int main() {
+    int cost_price,sell_price;
+
     
-    if () {
+    if (cost_price<sell_price) {
         printf("Profit");
     }
-    else if () {
+    else if (cost_price>sell_price) {
         printf("Loss");
     
     }
