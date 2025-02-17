@@ -6,10 +6,10 @@ int main(){
     int num,final_num,twoscomp,position;
     
     scanf("%d",&num);
-    twoscomp=~num +1;
+    twoscomp=~num;
     final_num=num & twoscomp;
     position = __builtin_ctz(final_num);
-    printf("%d",position-1);
+    printf("%d",position);
     return 0;
     
 }
