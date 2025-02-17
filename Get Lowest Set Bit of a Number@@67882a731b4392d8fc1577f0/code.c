@@ -2,7 +2,7 @@
 #include<stdio.h>
 
 int main(){ 
-    int num,bit,final_num,2scomp,position;
+    int num,final_num,2scomp,position;
     
     scanf("%d",&num);
     2scomp=~num +1;
