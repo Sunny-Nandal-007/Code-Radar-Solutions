@@ -4,7 +4,7 @@
 int main() {   
     char a;
     char[10] vowels;
-    vowels=a,e,i,o,u,A,E,I,O,U
+    vowels=a,e,i,o,u,A,E,I,O,U;
     scanf("%d",&a);
     if (a in vowels){
         printf("Vowel",a);
