@@ -9,7 +9,7 @@ int main(){
     twoscomp=~num;
     final_num=num & twoscomp;
     position = __builtin_ctz(final_num);
-    printf("%d",position);
+    printf("%d",position-1);
     return 0;
     
 }
