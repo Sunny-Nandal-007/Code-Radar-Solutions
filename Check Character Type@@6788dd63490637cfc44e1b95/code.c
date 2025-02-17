@@ -1,15 +1,18 @@
 // Your code here...
 #include <stdio.h>
+#include <ctype.h>
 
 int main() {   
     char a;
-    char[] vowels;
-    vowels=a,e,i,o,u,A,E,I,O,U;
+    
+    
     scanf("%d",&a);
-    if (a in vowels){
+    a=tolower(a);
+
+    if ((a == 'a' || a == 'e' || a == 'i' || a == 'o' || a == 'u') ){
         printf("Vowel",a);
     }    
-    else if(a in vowels){
+    else if('a'>=a && 'z'>=a){
         printf("Consonant",b);
     }
     else if('0'>= a && '9'>=a ){
