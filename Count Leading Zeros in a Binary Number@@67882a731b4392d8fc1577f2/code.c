@@ -3,13 +3,11 @@
 #include <stdint.h> 
 
 int main(){ 
-    int num,final_num,twoscomp,position;
+    int num,position;
     
     scanf("%d",&num);
-    twoscomp=~num;
-    final_num=num & twoscomp;
-    position = __builtin_ctz(final_num);
-    printf("%d",position-1);
+    position = __builtin_clz(final_num);
+    printf("%d",31-position);
     return 0;
     
 }
