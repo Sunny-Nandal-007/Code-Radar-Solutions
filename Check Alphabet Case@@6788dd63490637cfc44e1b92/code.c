@@ -3,7 +3,7 @@
 int main() {   
     char alphabet
     \;
-    scanf("%d",&year);
+    scanf("%d",&alphabet);
      if ('A'<= alphabet <= 'Z'){
         printf("Uppercase");
     }    
