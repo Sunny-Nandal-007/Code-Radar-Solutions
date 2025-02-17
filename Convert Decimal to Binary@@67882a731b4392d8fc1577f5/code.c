@@ -23,7 +23,7 @@ int main() {
     int num;
     scanf("%d", &num);
     decimal_to_binary(num);
-    printf("\n");
+    
     
     return 0;
 }
