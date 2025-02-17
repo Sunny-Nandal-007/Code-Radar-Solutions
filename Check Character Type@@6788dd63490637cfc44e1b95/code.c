@@ -12,7 +12,7 @@ int main() {
     else if(a in vowels){
         printf("Consonant",b);
     }
-    else if(0<=a && a<=9){
+    else if('0'>= a && '9'>=a ){
         printf("Digit",c);
 
     }
