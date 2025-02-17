@@ -3,6 +3,8 @@
 int main() {
     int marks;
 
+    scanf("%d",&marks);
+    
     if (marks >= 90 && marks <= 100) {
         printf("A\n");
     }
@@ -19,7 +21,7 @@ int main() {
         printf("F\n");
     }
     else {
-        printf("Invalid marks entered.\n"); // In case of negative marks or more than 100
+        printf("Invalid marks entered.\n"); 
     }
 
     return 0;
