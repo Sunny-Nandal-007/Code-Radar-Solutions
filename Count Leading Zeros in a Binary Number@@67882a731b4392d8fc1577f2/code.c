@@ -6,7 +6,7 @@ int main(){
     int num,position;
     
     scanf("%d",&num);
-    position = __builtin_clz(final_num);
+    position = __builtin_clz(num);
     printf("%d",31-position);
     return 0;
     
