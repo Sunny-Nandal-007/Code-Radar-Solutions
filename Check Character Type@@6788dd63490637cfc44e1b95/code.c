@@ -10,13 +10,13 @@ int main() {
     a=tolower(a);
 
     if ((a == 'a' || a == 'e' || a == 'i' || a == 'o' || a == 'u') ){
-        printf("Vowel",a);
+        printf("Vowel");
     }    
     else if('a'>=a && 'z'>=a){
-        printf("Consonant",b);
+        printf("Consonant");
     }
     else if('0'>= a && '9'>=a ){
-        printf("Digit",c);
+        printf("Digit");
 
     }
     else{
