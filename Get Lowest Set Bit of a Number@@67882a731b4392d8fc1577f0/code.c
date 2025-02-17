@@ -1,16 +1,15 @@
 // Your code here...
 #include<stdio.h>
+#include <stdint.h> 
 
 int main(){ 
-    int num,final_num,2scomp,position;
+    int num,final_num,twoscomp,position;
     
     scanf("%d",&num);
-    2scomp=~num +1;
-    final_num=num & 2scomp;
+    twoscomp=~num +1;
+    final_num=num & twoscomp;
     position = __builtin_ctz(final_num);
-
-    
-    
+    printf(%d,position);
     return 0;
     
 }
