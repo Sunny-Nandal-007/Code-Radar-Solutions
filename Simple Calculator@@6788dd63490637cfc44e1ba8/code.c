@@ -13,7 +13,12 @@ int main() {
         break;
         case '*':printf("%d",num*num2);
         break;
-        case '/':printf("%d",num/num2);
+        case '/':if (num2 == 0) {
+                printf("Error: Division by zero");
+            } else {
+                printf("%d", num / num2);
+            }
+            
         break;
         default:
         printf("error");
