@@ -3,9 +3,9 @@
 
 
 int main() {
-    int num;
-    scanf("%d", &num);
-    switch(num){
+    char grade;
+    scanf("%c", &grade);
+    switch(grade){
         case 'A':printf("Excellent\n");
         break;
         case 'B':printf("Good\n");
