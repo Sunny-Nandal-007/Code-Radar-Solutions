@@ -1,5 +1,6 @@
 // Your code here...
 #include <stdio.h>
+#include <math.h>
 
 int main() {
     int num,i;
@@ -8,15 +9,16 @@ int main() {
         printf("Not Prime");
         return 0;
     }
-    for(int i=2,i=num){
+    for(int i=2,i<sqrt(num),i++){
     if (num%i==0) {
         printf("Not Prime");
-        break;
+        return 0;
     } 
     else {
         continue;
     }
-    printf("Prime");
+    
     }
+    printf("Prime");
     return 0;
 }
