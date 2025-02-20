@@ -11,12 +11,11 @@ int main() {
     }
     for(int i=2,i<sqrt(num),i++){
     if (num%i==0) {
-        printf("Not Prime");
+        printf("Not Prime\n");
         return 0;
     } 
     
-    
     }
-    printf("Prime");
+    printf("Prime\n");
     return 0;
 }
