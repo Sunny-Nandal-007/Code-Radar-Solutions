@@ -4,7 +4,7 @@
 
 int main() {
     char light;
-    scanf("%d", &light);
+    scanf("%c", &light);
     switch(light){
         case 'G':printf("Go\n");
         break;
