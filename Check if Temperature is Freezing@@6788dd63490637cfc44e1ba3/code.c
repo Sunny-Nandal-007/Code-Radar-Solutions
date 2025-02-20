@@ -11,7 +11,7 @@ int main() {
         
     }
     else{
-        printf("Above freezing\n");
+        printf("Above Freezing\n");
     }
     return 0;
 }
