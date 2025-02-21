@@ -7,9 +7,10 @@ int main(){
     for (int i=1; i<=N;i++){
         for (int j=N;j>0;j--){
             printf("* ");
+            N-=1;
         }
         printf("\n");
-        N-=1;
+        
     }
     return 0;
 }
