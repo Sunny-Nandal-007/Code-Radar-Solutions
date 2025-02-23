@@ -12,15 +12,9 @@ int main(){
             printf(" ");
         }
         for (int k=1;k<=i;k++){
-            if (k<N+1){
+            
                 printf("%d",k);
-            }
-            else{
-                for (int l=k;l>0;k--){
-                
-                printf("%d",k);
-                }
-            }
+            
                 
             }
         printf("\n");
