@@ -6,16 +6,14 @@ int main(){
     
     scanf("%d",&N);
     
-    for (int i=1; i<=N;i++){
-        for (int k=0;k>i-1;k++){
-        printf(" ");
+    for (int i=0; i<N;i++){
+        for (int j=0;j<N-i;j++){
+            printf(" ");
+            for (int k=1;k<2N-1;k+=2){
+                printf("*");
+            }
+            printf("\n");
         }
-       
-        for (int j=0;j<i;j++){
-            printf("*");
-              
-        }
-        printf("\n");       
     }
     return 0;
 }
