@@ -17,10 +17,10 @@ int main(){
     }
     // Lower pyramid
     for (int i=0; i<N;i++){
-        for (int j=0;j<N-i-1;j++){
+        for (int j=N-i-2;j>0;j--){
             printf(" ");
         }
-        for (int k=0;k<2*i+1;k++){
+        for (int k=2*i+1;k>0;k++){
                 printf("*");
             }
         printf("\n");
