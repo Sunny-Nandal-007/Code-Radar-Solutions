@@ -11,7 +11,7 @@ int main(){
         for (int j=0;j<N-i-1;j++){
             printf(" ");
         }
-        for (int k=1;k<=N;k++){
+        for (int k=1;k<=2*N-1;k++){
                 printf("%d ",k);
                 
             }
