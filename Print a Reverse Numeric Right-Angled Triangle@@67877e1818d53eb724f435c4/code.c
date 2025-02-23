@@ -8,7 +8,7 @@ int main(){
     
     for (int i=1; i<=N;i++){
         count=1;
-        for (int j=N-i-1;j>0;j--){
+        for (int j=N-i;j>=0;j--){
             printf("%d ",count); 
             count++;   
         }
