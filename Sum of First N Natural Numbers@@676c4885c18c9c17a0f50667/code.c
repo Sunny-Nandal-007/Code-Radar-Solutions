@@ -2,13 +2,14 @@
 #include <stdio.h>
 
 int main(){
-    int N;
+    int N,sum;
     scanf("%d",&N);
     for (int i=0;i<N+1;i++){
-        printf("%d",i);
+        sum+=i;
+
     }
 
-
+    printf("%d",sum);
 
 
 
