@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 
-int isPrime(num){
+int isPrime(int num){
     if (num<=1){
         return 0;
     }
@@ -13,4 +13,13 @@ int isPrime(num){
 
     }
     return 1;
+}
+int main(){
+    int t;
+    scanf("%d",&num);
+    while(t--){
+    printf("%d\n",isPrime(num));
+    }
+    return 0;
+
 }
