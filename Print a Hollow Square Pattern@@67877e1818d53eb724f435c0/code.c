@@ -11,7 +11,7 @@ int main(){
             if(i==1 || i==N){
             printf("*");    
             }
-            if((i!=1 && i!=N)&&(j==0 || j==N-1)){
+            else if((i!=1 && i!=N)&&(j==0 || j==N-1)){
                 printf("*"); 
             }
             else{
