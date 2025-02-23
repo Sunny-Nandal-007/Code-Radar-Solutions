@@ -7,7 +7,7 @@ int main(){
     scanf("%d",&N);
     
     for (int i=1; i<=N;i++){
-        for (0;N-1,N--){
+        for (0;N-1;N--){
         printf(" ");
         }
        
