@@ -12,8 +12,9 @@ int main(){
             for (int k=1;k<2*N-1;k+=2){
                 printf("*");
             }
-            printf("\n");
+            
         }
+        printf("\n");
     }
     return 0;
 }
