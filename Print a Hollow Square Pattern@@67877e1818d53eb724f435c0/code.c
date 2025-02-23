@@ -9,7 +9,7 @@ int main(){
     for (int i=1; i<=N;i++){
         for (int j=0;j<N;j++){
             if((j==0 || j==N) && (i==1 || i==N)){
-            printf("* ");    
+            printf("*");    
             }
         printf("\n");       
         }
