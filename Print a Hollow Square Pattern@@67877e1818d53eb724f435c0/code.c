@@ -14,6 +14,9 @@ int main(){
             if((i!=1 && i!=N)&&(j==0 || j==N-1)){
                 printf("*"); 
             }
+            else{
+                print(" ");
+            }
             
         }
         printf("\n");   
