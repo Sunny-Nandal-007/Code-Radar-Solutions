@@ -12,7 +12,8 @@ int main(){
             printf(" ");
         }
         for (int k=0;k<2*i+1;k++){
-                printf("%d",count);
+                printf("%d ",count);
+                count++;
             }
         printf("\n");
     }
