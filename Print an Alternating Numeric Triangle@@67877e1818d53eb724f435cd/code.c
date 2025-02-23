@@ -11,8 +11,9 @@ int main(){
         for (int j=0;j<i;j++){
             printf("%d ",1 & i );
         }
-        }
         printf("\n");
+        }
+        
         
     return 0;
     }
