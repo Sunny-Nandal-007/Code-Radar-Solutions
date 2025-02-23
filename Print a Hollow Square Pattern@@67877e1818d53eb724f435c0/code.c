@@ -8,7 +8,7 @@ int main(){
     
     for (int i=1; i<=N;i++){
         for (int j=0;j<N;j++){
-            if(i==1 && i==N){
+            if(i==1 || i==N){
             printf("*");    
             }
             if((i!=1 && i!=N)&&(j==0 || j==N-1)){
