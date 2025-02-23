@@ -15,7 +15,7 @@ int main(){
                 printf("*"); 
             }
             else{
-                print(" ");
+                printf(" ");
             }
             
         }
