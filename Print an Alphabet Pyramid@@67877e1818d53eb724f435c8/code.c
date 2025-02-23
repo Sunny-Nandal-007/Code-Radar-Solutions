@@ -10,7 +10,7 @@ int main(){
     
     for (int i=0; i<N;i++){
         Alph='A';
-        for (int j=0;j<N-i;j++){
+        for (int j=0;j<=i;j++){
             printf("%c ",Alph);
             Alph+=1;
             }
