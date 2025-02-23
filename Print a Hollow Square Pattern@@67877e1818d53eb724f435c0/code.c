@@ -11,8 +11,9 @@ int main(){
             if((j==0 || j==N) && (i==1 || i==N)){
             printf("*");    
             }
-        printf("\n");       
+            
         }
+        printf("\n");   
     }
     return 0;
 }
