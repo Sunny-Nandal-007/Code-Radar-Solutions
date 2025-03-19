@@ -1,5 +1,4 @@
 // Your code here...
-void fibonacciSeries(int n){
     void fibonacciSeries(int n) {
     static int a = 0, b = 1; // Using static to retain values between function calls
 
@@ -12,5 +11,4 @@ void fibonacciSeries(int n){
     b = next;
 
     fibonacciSeries(n - 1); // Recursive call
-}
 }
