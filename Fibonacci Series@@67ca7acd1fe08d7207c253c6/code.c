@@ -1,7 +1,16 @@
 // Your code here...
 int fibonacciSeries(int n){
-    if (n <= 0) return 0;
-    if (n == 1) return 1;
-    return fibonacciSeries(n - 1) + fibonacciSeries(n - 2);
-    
+    void fibonacciSeries(int n) {
+    static int a = 0, b = 1; // Using static to retain values between function calls
+
+    if (n <= 0) return;
+
+    printf("%d ", a);
+
+    int next = a + b;
+    a = b;
+    b = next;
+
+    fibonacciSeries(n - 1); // Recursive call
+}
 }
