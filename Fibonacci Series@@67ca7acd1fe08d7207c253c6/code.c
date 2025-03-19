@@ -1,5 +1,5 @@
 // Your code here...
-int fibonacciSeries(int n){
+void fibonacciSeries(int n){
     void fibonacciSeries(int n) {
     static int a = 0, b = 1; // Using static to retain values between function calls
 
