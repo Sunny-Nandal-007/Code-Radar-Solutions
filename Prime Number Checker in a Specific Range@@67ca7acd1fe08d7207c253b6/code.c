@@ -1,6 +1,6 @@
 // Your code here...
 
-int isPrimeRange(int a, int b){
+int printPrimesInRange(int a, int b){
     int i;
     for (i>a;i<b;i++){
     if (num<=1){
